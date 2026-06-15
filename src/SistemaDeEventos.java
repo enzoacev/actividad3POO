@@ -179,7 +179,7 @@ public class SistemaDeEventos {
             }
         });
 
-        // boton 5: comparar fechas de manera simple como si fueran palabras
+        // boton 5: comparar fechas
         botonVerCalendario.addActionListener(e -> {
             String fechaDeHoy = "2026-06-15";
             areaDeVisualizacion.setText("--- CALENDARIO DE EVENTOS ---\n\n");
